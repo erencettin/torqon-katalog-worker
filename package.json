@@ -1,0 +1,23 @@
+{
+  "name": "torqon-katalog-worker",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "generate": "tsx scripts/generate-pdf.ts"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^4.5.1",
+    "@supabase/supabase-js": "^2.102.1",
+    "pdf-lib": "^1.17.1",
+    "qrcode": "^1.5.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^19",
+    "tsx": "^4.19.2",
+    "typescript": "^5"
+  }
+}
